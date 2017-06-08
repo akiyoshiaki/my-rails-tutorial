@@ -558,3 +558,36 @@ Processing by StaticPagesController#contact as HTML
 Completed 200 OK in 54ms (Views: 44.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-06-08 10:27:42 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2016.2ms)
+  Rendered layouts/_rails_default.html.erb (84.9ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 2497ms (Views: 2130.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 10:35:09 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_rails_default.html.erb (114.2ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 154ms (Views: 135.3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2017-06-08 10:35:12 +0900
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_rails_default.html.erb (45.6ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (4.9ms) [cache miss]
+Completed 200 OK in 81ms (Views: 75.9ms)
+
+
