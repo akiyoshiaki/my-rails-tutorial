@@ -122,3 +122,439 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 3151ms (Views: 2935.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-06-08 01:34:20 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3848.8ms)
+Completed 200 OK in 4179ms (Views: 3913.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 01:39:51 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (16.8ms)
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 83ms (Views: 74.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 01:41:02 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 116ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$gray-light".):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= render "layouts/shim" %>
+  
+app/assets/stylesheets/custom.scss:46
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2421822656277672662_70137877432280'
+Started GET "/" for 127.0.0.1 at 2017-06-08 01:41:52 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 53ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$gray-light".):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= render "layouts/shim" %>
+  
+app/assets/stylesheets/custom.scss:78
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2421822656277672662_70137902517380'
+Started GET "/" for 127.0.0.1 at 2017-06-08 01:42:44 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 66ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$gray".):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= render "layouts/shim" %>
+  
+app/assets/stylesheets/custom.scss:81
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2421822656277672662_70137889689800'
+Started GET "/" for 127.0.0.1 at 2017-06-08 01:43:39 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 47ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$gray-darker".):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                               'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= render "layouts/shim" %>
+  
+app/assets/stylesheets/custom.scss:83
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2421822656277672662_70137893316800'
+Started GET "/" for 127.0.0.1 at 2017-06-08 01:46:06 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_rails_default.html.erb (24.9ms)
+Completed 500 Internal Server Error in 35ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$gray-darker".):
+    1: <%= csrf_meta_tags %>
+    2: <%= stylesheet_link_tag    'application', media: 'all',
+    3:                                           'data-turbolinks-track': 'reload' %>
+    4: <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+app/assets/stylesheets/custom.scss:83
+app/views/layouts/_rails_default.html.erb:2:in `_app_views_layouts__rails_default_html_erb__1211155768791354751_70137867546860'
+app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2421822656277672662_70137867566640'
+Started GET "/" for 127.0.0.1 at 2017-06-08 01:49:51 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_rails_default.html.erb (70.4ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 93ms (Views: 90.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 01:49:59 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_rails_default.html.erb (12.2ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 26ms (Views: 24.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 01:50:10 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (18.5ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 41ms (Views: 38.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 01:51:03 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (1756.9ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 1774ms (Views: 1772.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 02:02:16 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_rails_default.html.erb (73.6ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 113ms (Views: 107.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 02:03:40 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_rails_default.html.erb (61.0ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 87ms (Views: 80.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 02:10:26 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (16.2ms)
+  Rendered layouts/_rails_default.html.erb (160.6ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (435.5ms)
+Completed 500 Internal Server Error in 643ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `root_parh' for #<#<Class:0x007f947d775538>:0x007f948045f508>
+Did you mean?  root_path
+               root_url):
+    1: <header class="navbar navbar-fixed-top navbar-inverse">
+    2:   <div class="container">
+    3:     <%= link_to "sample app", root_parh, id: "logo" %>
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right">
+    6:         <li><%= link_to "Home",   root_parh %></li>
+  
+app/views/layouts/_header.html.erb:3:in `_app_views_layouts__header_html_erb___621224520747924445_70137889515120'
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___2421822656277672662_70137892075580'
+Started GET "/" for 127.0.0.1 at 2017-06-08 02:10:39 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (24.9ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (225.5ms)
+Completed 500 Internal Server Error in 265ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `root_parh' for #<#<Class:0x007f947d775538>:0x007f9480148270>
+Did you mean?  root_path
+               root_url):
+    1: <header class="navbar navbar-fixed-top navbar-inverse">
+    2:   <div class="container">
+    3:     <%= link_to "sample app", root_parh, id: "logo" %>
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right">
+    6:         <li><%= link_to "Home",   root_path %></li>
+  
+app/views/layouts/_header.html.erb:3:in `_app_views_layouts__header_html_erb___621224520747924445_70137891028620'
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___2421822656277672662_70137833650020'
+Started GET "/" for 127.0.0.1 at 2017-06-08 02:10:51 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_rails_default.html.erb (26.4ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (268.4ms)
+Completed 500 Internal Server Error in 312ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `root_parh' for #<#<Class:0x007f947d775538>:0x007f9479536d98>
+Did you mean?  root_path
+               root_url):
+    1: <header class="navbar navbar-fixed-top navbar-inverse">
+    2:   <div class="container">
+    3:     <%= link_to "sample app", root_parh, id: "logo" %>
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right">
+    6:         <li><%= link_to "Home",   root_path %></li>
+  
+app/views/layouts/_header.html.erb:3:in `_app_views_layouts__header_html_erb___621224520747924445_70137885941120'
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___2421822656277672662_70137833681020'
+Started GET "/" for 127.0.0.1 at 2017-06-08 02:11:06 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_rails_default.html.erb (29.8ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (321.3ms)
+Completed 500 Internal Server Error in 367ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `help_path' for #<#<Class:0x007f947d775538>:0x007f947eb10200>):
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right">
+    6:         <li><%= link_to "Home",   root_path %></li>
+    7:         <li><%= link_to "Help",   help_path %></li>
+    8:         <li><%= link_to "Log in", '#' %></li>
+    9:       </ul>
+   10:     </nav>
+  
+app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb___621224520747924445_70137880507980'
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___2421822656277672662_70137878775120'
+Started GET "/" for 127.0.0.1 at 2017-06-08 08:44:26 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (26.9ms)
+  Rendered layouts/_rails_default.html.erb (105.8ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (429.0ms)
+Completed 500 Internal Server Error in 595ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `help_path' for #<#<Class:0x007f947d775538>:0x007f94810db638>):
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right">
+    6:         <li><%= link_to "Home",   root_path %></li>
+    7:         <li><%= link_to "Help",   help_path %></li>
+    8:         <li><%= link_to "Log in", '#' %></li>
+    9:       </ul>
+   10:     </nav>
+  
+app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb___621224520747924445_70137881220960'
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___2421822656277672662_70137898491800'
+Started GET "/" for 127.0.0.1 at 2017-06-08 09:15:53 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (13.1ms)
+  Rendered layouts/_rails_default.html.erb (66.6ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 126ms (Views: 113.9ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2017-06-08 09:15:56 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_rails_default.html.erb (55.1ms) [cache miss]
+  Rendered layouts/_shim.html.erb (2.1ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.0ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 78ms (Views: 75.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 09:17:13 +0900
+  
+SyntaxError (/Users/denjo/Documents/workspace/my-rails-tutorial/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/help' to: 'static_pages/help'
+                ^):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2017-06-08 09:17:34 +0900
+  
+SyntaxError (/Users/denjo/Documents/workspace/my-rails-tutorial/config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/help' to: 'static_pages#help'
+                ^):
+  
+config/routes.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2017-06-08 09:17:49 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_rails_default.html.erb (41.9ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.5ms) [cache miss]
+  Rendered layouts/_header.html.erb (356.6ms)
+Completed 500 Internal Server Error in 417ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `static_pages_help_path' for #<#<Class:0x007f94793b0a50>:0x007f9481841a80>):
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right">
+    6:         <li><%= link_to "Home",   root_path %></li>
+    7:         <li><%= link_to "Help",   static_pages_help_path %></li>
+    8:         <li><%= link_to "Log in", '#' %></li>
+    9:       </ul>
+   10:     </nav>
+  
+app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb___621224520747924445_70137903127540'
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___2421822656277672662_70137902369860'
+Started GET "/" for 127.0.0.1 at 2017-06-08 09:17:59 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_rails_default.html.erb (21.7ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.3ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 40ms (Views: 37.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 09:18:01 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_rails_default.html.erb (41.6ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 60ms (Views: 58.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 09:18:04 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_rails_default.html.erb (39.3ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 64ms (Views: 61.4ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2017-06-08 09:18:11 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_rails_default.html.erb (54.7ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.7ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 75ms (Views: 72.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 09:22:00 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_rails_default.html.erb (34.0ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.6ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 52ms (Views: 49.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-08 09:22:02 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_rails_default.html.erb (23.2ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.3ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 39ms (Views: 37.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-06-08 09:22:04 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_rails_default.html.erb (31.7ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (0.8ms) [cache miss]
+  Rendered layouts/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 59ms (Views: 48.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-06-08 09:22:07 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_rails_default.html.erb (29.1ms) [cache miss]
+  Rendered layouts/_shim.html.erb (0.4ms) [cache miss]
+  Rendered layouts/_header.html.erb (1.1ms) [cache miss]
+  Rendered layouts/_footer.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 54ms (Views: 44.2ms)
+
+
