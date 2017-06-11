@@ -1,0 +1,4 @@
+namaozi:
+  name: Namazu Ojisan
+  email: oneofmyagents@gmail.com
+  password_digest: <%= User.digest("password") %>
